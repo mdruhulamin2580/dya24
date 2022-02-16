@@ -1,0 +1,128 @@
+.menu-color {
+    background: #13abce;
+  }
+
+  .img-logo img {
+    max-width: 24%;
+    margin-top: 2px;
+  }
+
+.borde {
+    padding: 8px 60px;
+    border-radius: 26px;
+    margin-left: 86px;
+   }
+
+
+
+.menu-item ul{}
+.menu-item ul li{
+    position: relative;
+}
+.menu-item ul li a{
+  
+}
+
+
+.menu-item ul li::after {
+    content: "";
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: rgb(240, 217, 214);
+    position: absolute;
+    transition: 0.7s;
+    top: 58px;
+    
+   
+}
+.menu-item ul li:hover::after {
+    width: 100%;
+}
+/* qor */
+.toq{}
+.toq h1 {
+    padding-top: 83px;
+    font-size: 32px;
+    padding-bottom: 25px;
+  }
+.top p{
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+
+.baton {
+
+    margin-top: 29px;
+    padding: 10px 58px;
+    margin-bottom: 100px;
+    border-radius: 25px;
+
+}
+.div-main {
+    overflow: hidden;
+  }
+
+.div-img {
+    
+  }
+
+  .div-img img {
+    height: 800px;
+    width: 800px;
+    border-radius: 50%;
+    position: relative;
+    top: -143px;
+    right: -66px;
+  }
+  .hehedar-div{}
+  .hehedar-div h4 {
+    font-size: 22px;
+    font-weight: 100;
+  }
+  .hehedar-div h1 {
+    width: 57%;
+    font-size: 29px;
+  }
+  .hehedar-div p{
+      width: 50px;
+      height: 2px;
+      background-color: #a092ed;
+  }
+  .hehedar-div h4 {
+    font-size: 22px;
+    font-weight: 100;
+    color: #a092ed;
+  }
+  /* prodakt */
+  .prodakt{
+    padding: 10px;
+    border-radius:10px;
+    transition: .7s;
+  }
+  .prodakt h1{}
+  .prodakt span {
+    background: rgb(1, 1, 5);
+    color: white;
+    border-radius: 71px 75px 120px 2px;
+    padding: 10px;
+  }
+  .prodakt:hover span{
+    background-color: antiquewhite;
+    color: black;
+  }
+  .fa.fa-microphone {
+    padding: 11px;
+  }
+  .prodakt h3{
+    height: 2px;
+    width: 100px;
+    background: red;
+    margin-top: 10px;
+  }
+  .prodakt h5{}
+  .prodakt:hover{
+    background-color: blue;
+    color: bisque;
+  }
